@@ -1,0 +1,100 @@
+<!-- Vista de Administración -->
+<div class="container mt-5">
+    <h2>Administración</h2>
+    <p>Monto total de ventas: $27,499.90</p>
+    <a href="" class="btn btn-success mb-3">Crear Producto</a>
+        <table class="table table-striped table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Producto</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Stock</th>
+                    <th scope="col">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Fuel EX 9.8 GX AXS Gen 5</td>
+                    <td>$4,799.93</td>
+                    <td>10</td>
+                    <td>
+                        <a href="" class="btn btn-warning">Editar</a>
+                        <a href="" class="btn btn-danger">Borrar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Session 9 X01</td>
+                    <td>$7,199.99</td>
+                    <td>5</td>
+                    <td>
+                        <a href="" class="btn btn-warning">Editar</a>
+                        <a href="" class="btn btn-danger">Borrar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Domane SLR 7 Gen 4</td>
+                    <td>$8,499.99</td>
+                    <td>3</td>
+                    <td>
+                        <a href="" class="btn btn-warning">Editar</a>
+                        <a href="" class="btn btn-danger">Borrar</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</div>
+<!-- Vista de Administración -->
+
+<!-- Formulario para Crear Producto -->
+<div class="container mt-2">
+    <h2>Crear Producto</h2>
+    <div class="border p-3 rounded bg-white shadow">
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Nombre del Producto</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">URL de la Imagen</label>
+                <input type="url" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Precio</label>
+                <input type="number" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Stock</label>
+                <input type="number" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Crear Producto</button>
+        </form>
+    </div>
+</div>
+<!-- Formulario para Crear Producto -->
+
+<!-- Formulario para Editar Producto -->
+<div class="container mt-4 mb-5">
+    <h2>Editar Producto</h2>
+    <div class="border p-4 rounded bg-white shadow">
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Nombre del Producto</label>
+                <input type="text" class="form-control" value="Domane SLR 9 Gen 3" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">URL de la Imagen</label>
+                <input type="url" class="form-control" value="https://media.trekbikes.com" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Precio</label>
+                <input type="number" class="form-control" value="1000" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Stock</label>
+                <input type="number" class="form-control" value="10" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+        </form>
+    </div>
+</div>
+<!-- Formulario para Editar Producto -->
